@@ -27,41 +27,38 @@ export function Experiencia() {
             <div id="experiencia" className="bg-white shadow-lg rounded-xl mt-5 mb-5 p-5 z-0">
                 <h2 className="flex mytitle text-primary ml-3 mb-5 ">  <FaUserTie size={25} color={theme.colors.primary} className='mt-1 mr-1' /> Experiência</h2>
 
-                <div className='grid grid-cols-12 '>
-                    <div className='col-span-5  p-2 shadow-xl shadow-primary rounded-xl mx-5 border-l-primary border-l-4 border-t-primary border-t-4'>
-                        <div className="text-left pl-2 text-sm  ">
-
+                <div className='grid grid-cols-12 mb-7 md:mb-0'>
+                    <div className='md:col-span-5 col-span-12 p-2 mx-5 shadow-lg shadow-primary rounded-xl border-l-primary border-l-4 border-t-primary border-t-4'>
+                        <div className="text-left pl-2 text-sm">
                             <h3 className='font-bold'>Analista de Sistemas no Instituto de Desenvolvimento e Pesquisa</h3>
                             <p><span className='font-bold'>Início: </span> 07/01/20 <span className='font-bold'>Término: </span>30/06/2023 </p>
                             <p><span className='font-bold'>Competências: </span>
                                 Desenvolvimento de Sistemas Web e Mobile - Suporte e Gestão dos sistemas – Instalação e Backup de Servidores Linux - Apache</p>
                         </div>
                     </div>
-                    <div className="col-span-2">
-                        <div className="grid lg:grid-cols-9 ">
-                            <div className="col-span-3 "></div>
-                            <div className="col-span-3 bg-primary rounded-full  text-white hidden md:block"><h1>2023</h1></div>
-                            <div className="col-span-3 "></div>
+                    <div className="hidden md:col-span-2 md:block">
+                        <div className="grid lg:grid-cols-9">
+                            <div className="md:col-span-3 "></div>
+                            <div className="md:col-span-3 bg-primary rounded-full  text-white hidden md:block"><h1>2023</h1></div>
+                            <div className="md:col-span-3 "></div>
                         </div>
                         {linegrid}
                         {linegrid}
                         {linegrid}
                         {linegrid}
                         <div className="grid lg:grid-cols-9 ">
-                            <div className="col-span-3 "></div>
-                            <div className="col-span-3 bg-primary rounded-full  text-white hidden md:block"><h1>2020</h1></div>
-                            <div className="col-span-3 "></div>
+                            <div className="md:col-span-3 "></div>
+                            <div className="md:col-span-3 bg-primary rounded-full  text-white hidden md:block"><h1>2020</h1></div>
+                            <div className="md:col-span-3 "></div>
                         </div>
                     </div>
-                    <div className='col-span-5'>
-
+                    <div className='hidden md:col-span-5'>
                     </div>
                 </div>
-                <div className='grid grid-cols-12 '>
-                    <div className='col-span-5'>
+                <div className='grid grid-cols-12 mb-7 md:mb-0'>
+                    <div className='hidden md:col-span-5 md:block'>
                     </div>
-                    <div className="col-span-2">
-
+                    <div className="hidden md:col-span-2 md:block">
                         {linegrid}
                         {linegrid}
                         {linegrid}
@@ -75,7 +72,7 @@ export function Experiencia() {
                         </div>
                     </div>
 
-                    <div className='col-span-5  p-2 shadow-xl shadow-primary rounded-xl mx-5 border-r-primary border-r-4 border-t-primary border-t-4'>
+                    <div className='md:col-span-5 col-span-12 p-2 mx-5 shadow-lg shadow-primary rounded-xl border-r-primary border-r-4 border-t-primary border-t-4'>
                         <div className="text-right pl-2 text-sm  ">
                             <h3 className='font-bold'>Tutor de Informática na Universidade CEDERJ Polo Magé</h3>
                             <p><span className='font-bold'>Início: </span> 02/01/18 <span className='font-bold'>Término: </span>Atualmente </p>
@@ -89,10 +86,9 @@ export function Experiencia() {
                         </div>
                     </div>
 
-
                 </div>
-                <div className='grid grid-cols-12 '>
-                    <div className='col-span-5  p-2 shadow-xl shadow-primary rounded-xl mx-5 border-l-primary border-l-4 border-t-primary border-t-4'>
+                <div className='grid grid-cols-12 mb-7 md:mb-0'>
+                    <div className='md:col-span-5 col-span-12 p-2 mx-5 shadow-lg shadow-primary rounded-xl border-r-primary border-r-4 border-t-primary border-t-4'>
                         <div className="text-left pl-2 text-sm">
                             <h3 className='font-bold'>Técnico em TI na Secretaria de Educação de Magé</h3>
                             <p><span className='font-bold'>Início: </span> 03/01/17 <span className='font-bold'>Término: </span>05/01/2020 </p>
@@ -104,7 +100,7 @@ export function Experiencia() {
                                 Manutenção de Computadores, Notebooks e Rede - Design de Imagens e Vídeos</p>
                         </div>
                     </div>
-                    <div className="col-span-2">                       
+                    <div className='hidden md:col-span-2 md:block'>
                         {linegrid}
                         {linegrid}
                         {linegrid}
@@ -118,15 +114,14 @@ export function Experiencia() {
                             <div className="col-span-3 "></div>
                         </div>
                     </div>
-                    <div className='col-span-5'>
+                    <div className='hidden md:col-span-5 md:block'>
 
                     </div>
                 </div>
-                <div className='grid grid-cols-12 '>
-                    <div className='col-span-5'>
+                <div className='grid grid-cols-12 mb-7 md:mb-0'>
+                    <div className='hidden md:col-span-5 md:block'>
                     </div>
-                    <div className="col-span-2">
-
+                    <div className='hidden md:col-span-2 md:block'>
                         {linegrid}
                         {linegrid}
                         {linegrid}
@@ -140,7 +135,7 @@ export function Experiencia() {
                         </div>
                     </div>
 
-                    <div className='col-span-5  p-2 shadow-xl shadow-primary rounded-xl mx-5 border-r-primary border-r-4 border-t-primary border-t-4'>
+                    <div className='md:col-span-5 col-span-12 p-2 mx-5 shadow-lg shadow-primary rounded-xl border-r-primary border-r-4 border-t-primary border-t-4'>
                         <div className="text-right pl-2 text-sm">
                             <h3 className='font-bold'>Consultor de Vendas Externo na Empresa Cix Distribuidora</h3>
                             <p><span className='font-bold'>Início: </span> 02/07/12 <span className='font-bold'>Término: </span>30/08/15 </p>
@@ -152,8 +147,8 @@ export function Experiencia() {
 
 
                 </div>
-                <div className='grid grid-cols-12 '>
-                    <div className='col-span-5  p-2 shadow-xl shadow-primary rounded-xl mx-5 border-l-primary border-l-4 border-t-primary border-t-4'>
+                <div className='grid grid-cols-12'>
+                    <div className='md:col-span-5 col-span-12 p-2 mx-5 shadow-lg shadow-primary rounded-xl border-l-primary border-l-4 border-t-primary border-t-4'>
                         <div className="text-left pl-2 text-sm">
                             <h3 className='font-bold'>Tele Cobrança nas Lojas Nalin</h3>
                             <p><span className='font-bold'>Início: </span> 05/01/11 <span className='font-bold'>Término: </span>05/01/12 </p>
@@ -161,7 +156,7 @@ export function Experiencia() {
                                 Cobrança de Faturas; TeleMarketing; SAC; Gerenciamento de Sistemas; </p>
                         </div>
                     </div>
-                    <div className="col-span-2">                        
+                    <div className='hidden md:col-span-2 md:block'>
                         {linegrid}
                         {linegrid}
                         {linegrid}
@@ -173,15 +168,14 @@ export function Experiencia() {
                             <div className="col-span-3 "></div>
                         </div>
                     </div>
-                    <div className='col-span-5'>
-
+                    <div className='hidden md:col-span-5 md:block'>
                     </div>
                 </div>
 
                 <h2 className="flex mytitle text-primary ml-3 mb-5 mt-10">  <RiUser2Fill size={25} color={theme.colors.primary} className='mt-1 mr-1' /> Experiências Complementares</h2>
 
-                <div className='grid grid-cols-12 '>
-                    <div className='col-span-4 p-2 shadow-xl shadow-primary rounded-xl mx-5 border-l-primary border-l-4 border-t-primary border-t-4'>
+                <div className='grid  grid-cols-1 md:grid-cols-12'>
+                    <div className='col-span-4 p-2 mb-5 shadow-lg shadow-primary rounded-xl mx-5 border-l-primary border-l-4 border-t-primary border-t-4'>
                         <div className="text-left pl-2 text-sm  ">
                             <h3 className='font-bold'>Professor de Informática no Projeto Caravana na Universidade UNIRIO</h3>
                             <p><span className='font-bold'>Início: </span> 01/12/18 <span className='font-bold'>Término: </span>14/02/19 </p>
@@ -189,7 +183,7 @@ export function Experiencia() {
                                 Aulas de Informática Básica com nível de cursos técnicos</p>
                         </div>
                     </div>
-                    <div className='col-span-4 p-2 shadow-xl shadow-primary rounded-xl mx-5  border-t-primary border-t-4'>
+                    <div className='col-span-4 p-2 mb-5 shadow-lg shadow-primary rounded-xl mx-5  border-t-primary border-t-4'>
                         <div className="text-left pl-2 text-sm  ">
                             <h3 className='font-bold'>Professor de Manutenção de Dispositivos Móveis, Computadores e Rede na Microlins</h3>
                             <p><span className='font-bold'>Início: </span> 27/01/19 <span className='font-bold'>Término: </span>20/03/20 </p>
@@ -198,7 +192,7 @@ export function Experiencia() {
                                 Montagem e manutenção de computadores notebooks e rede</p>
                         </div>
                     </div>
-                    <div className='col-span-4 p-2 shadow-xl shadow-primary rounded-xl mx-5 border-r-primary border-r-4 border-t-primary border-t-4'>
+                    <div className='col-span-4 p-2 mb-5 shadow-lg shadow-primary rounded-xl mx-5 border-r-primary border-r-4 border-t-primary border-t-4'>
                         <div className="text-left pl-2 text-sm  ">
                             <h3 className='font-bold'>Projetos Proprios ou Particulares</h3>
                             <span className='font-bold'> </span>

@@ -6,7 +6,7 @@ import foto from './assets/foto.jpg'
 import { Mynavbar } from './components/Mynavbar'
 import { Habilidades } from './components/Habilidades'
 import { SobreMim } from './components/SobreMim'
-import { Project1 } from './components/project1'
+import { ProjectOne } from './components/ProjectOne'
 import { Formacao } from './components/Formacao'
 import { Experiencia } from './components/Experiencia'
 
@@ -38,14 +38,11 @@ function App() {
 
       <Habilidades />
 
-      <Project1 />
+      <ProjectOne />
 
       <Formacao />
-      
+
       <Experiencia />
-
-     
-
 
     </div>
   )

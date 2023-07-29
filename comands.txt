@@ -1,3 +1,9 @@
 
 // tailwindui
 npm install @headlessui/react @heroicons/react
+
+// install vercel
+npm i -g vercel
+
+// subir project
+vercel 
