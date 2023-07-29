@@ -1,6 +1,7 @@
 import print1 from '../assets/project1print1.png'
 import { BsCodeSlash } from "react-icons/bs";
 import theme from '../theme';
+import { Link } from 'react-router-dom';
 
 const features = [
     { name: 'Tecnologias', description: 'React Native' },
@@ -12,25 +13,26 @@ const features = [
 export function ProjectOne() {
     return (
         <div id="projetos" className="bg-white shadow-lg rounded-xl mt-5">
-            <h2 className="flex mytitle text-primary ml-3 p-5">  <BsCodeSlash size={25} color={theme.colors.primary} className='mt-1 mr-1'/> Projetos</h2>
+            <h2 className="flex mytitle text-primary ml-3 p-5">  <BsCodeSlash size={25} color={theme.colors.primary} className='mt-1 mr-1' /> Projetos</h2>
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-6 sm:px-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8 ">
                 <div className=''>
-                    <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Fazer Hoje</h2>
+                    <h2 className="text-2xl font-bold tracking-tight text-primary sm:text-3xl">Fazer Hoje</h2>
                     <p className="mt-4 text-gray-500">
-                        Lista de afazeres rapida e intuitiva
+                        Você está cansado de se sentir sobrecarregado com uma lista interminável de tarefas? Precisa de uma maneira mais organizada e eficiente de gerenciar suas atividades diárias?
+                        Fazer Hoje é um aplicativo inteligente e intuitivo projetado para ajudar você a organizar e priorizar suas tarefas de forma rápida e eficaz.
                     </p>
 
-                    <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+                    <dl className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                         {features.map((feature) => (
-                            <div key={feature.name} className="border-t border-gray-200 pt-4">
+                            <div key={feature.name} className="border-t border-primary pt-3">
                                 <dt className="font-medium text-gray-900">{feature.name}</dt>
                                 <dd className="mt-2 text-sm text-gray-500">{feature.description}</dd>
                             </div>
                         ))}
-                        <div className="border-t border-gray-200 pt-4">
+                        <div className="border-t border-primary pt-3">
                             <dt className="font-medium text-gray-900">Use agora mesmo</dt>
-                            <dd className="mt-2 text-sm text-gray-500">PlayStore</dd>
-                            <dd className="mt-2 text-sm text-gray-500">Termo de Serviço</dd>
+                            <dd className="mt-2 text-sm text-white bg-primary p-1 rounded-xl">PlayStore</dd>
+                           <Link to='/PoliticaProjectOne'> <dd className="mt-2 text-sm text-white bg-primary p-1 rounded-xl ">Termo de Serviço</dd> </Link>
                         </div>
                     </dl>
                 </div>
