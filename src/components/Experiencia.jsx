@@ -31,7 +31,7 @@ export function Experiencia() {
                     <div className='md:col-span-5 col-span-12 p-2 mx-5 shadow-lg shadow-primary rounded-xl border-l-primary border-l-4 border-t-primary border-t-4'>
                         <div className="text-left pl-2 text-sm">
                             <h3 className='font-bold'>Analista de Sistemas no Instituto de Desenvolvimento e Pesquisa</h3>
-                            <p><span className='font-bold'>Início: </span> 07/01/20 <span className='font-bold'>Término: </span>30/06/2023 </p>
+                            <p><span className='font-bold'>Início: </span> 07/01/2020 <span className='font-bold'>Término: </span>30/06/2023 </p>
                             <p><span className='font-bold'>Competências: </span>
                                 Desenvolvimento de Sistemas Web e Mobile - Suporte e Gestão dos sistemas – Instalação e Backup de Servidores Linux - Apache</p>
                         </div>
@@ -75,7 +75,7 @@ export function Experiencia() {
                     <div className='md:col-span-5 col-span-12 p-2 mx-5 shadow-lg shadow-primary rounded-xl border-r-primary border-r-4 border-t-primary border-t-4'>
                         <div className="text-right pl-2 text-sm  ">
                             <h3 className='font-bold'>Tutor de Informática na Universidade CEDERJ Polo Magé</h3>
-                            <p><span className='font-bold'>Início: </span> 02/01/18 <span className='font-bold'>Término: </span>Atualmente </p>
+                            <p><span className='font-bold'>Início: </span> 02/01/2018 <span className='font-bold'>Término: </span>Atualmente </p>
                             <p><span className='font-bold'>Competências: </span>
                                 Tutorias sobre:
                                 Linux - Ubuntu;
@@ -88,10 +88,10 @@ export function Experiencia() {
 
                 </div>
                 <div className='grid grid-cols-12 mb-7 md:mb-0'>
-                    <div className='md:col-span-5 col-span-12 p-2 mx-5 shadow-lg shadow-primary rounded-xl border-r-primary border-r-4 border-t-primary border-t-4'>
+                    <div className='md:col-span-5 col-span-12 p-2 mx-5 shadow-lg shadow-blue-400 rounded-xl border-l-primary border-l-4 border-t-primary border-t-4'>
                         <div className="text-left pl-2 text-sm">
                             <h3 className='font-bold'>Técnico em TI na Secretaria de Educação de Magé</h3>
-                            <p><span className='font-bold'>Início: </span> 03/01/17 <span className='font-bold'>Término: </span>05/01/2020 </p>
+                            <p><span className='font-bold'>Início: </span> 03/01/2017 <span className='font-bold'>Término: </span>05/01/2020 </p>
                             <p><span className='font-bold'>Competências: </span>
                                 Desenvolvimento e Implatação de Sistemas
                                 Gerenciamento e Manutenção de Servidores - SQL
@@ -138,7 +138,7 @@ export function Experiencia() {
                     <div className='md:col-span-5 col-span-12 p-2 mx-5 shadow-lg shadow-primary rounded-xl border-r-primary border-r-4 border-t-primary border-t-4'>
                         <div className="text-right pl-2 text-sm">
                             <h3 className='font-bold'>Consultor de Vendas Externo na Empresa Cix Distribuidora</h3>
-                            <p><span className='font-bold'>Início: </span> 02/07/12 <span className='font-bold'>Término: </span>30/08/15 </p>
+                            <p><span className='font-bold'>Início: </span> 02/07/2012 <span className='font-bold'>Término: </span>30/08/2015 </p>
                             <p><span className='font-bold'>Competências: </span>
                                 Vendas; Relacionamento com cliente; Administração de Sistemas de Vendas; Merchandising e Marketing
                             </p>
@@ -151,7 +151,7 @@ export function Experiencia() {
                     <div className='md:col-span-5 col-span-12 p-2 mx-5 shadow-lg shadow-primary rounded-xl border-l-primary border-l-4 border-t-primary border-t-4'>
                         <div className="text-left pl-2 text-sm">
                             <h3 className='font-bold'>Tele Cobrança nas Lojas Nalin</h3>
-                            <p><span className='font-bold'>Início: </span> 05/01/11 <span className='font-bold'>Término: </span>05/01/12 </p>
+                            <p><span className='font-bold'>Início: </span> 05/01/2011 <span className='font-bold'>Término: </span>05/01/2012 </p>
                             <p><span className='font-bold'>Competências: </span>
                                 Cobrança de Faturas; TeleMarketing; SAC; Gerenciamento de Sistemas; </p>
                         </div>

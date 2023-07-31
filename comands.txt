@@ -7,3 +7,11 @@ npm i -g vercel
 
 // subir project
 vercel 
+
+// Atualizar Projeto na Vercel
+vercel --prod
+
+
+
+//senha key store
+curtytech

@@ -16,15 +16,19 @@ export function Habilidades() {
         { name: 'Styled Components', site: 'https://www.styled-components.com', img: '', },
         { name: 'React JS', site: 'https://www.react.dev/', img: '', },
         { name: 'React Native', site: 'https://reactnative.dev/', img: '', },
+        { name: 'React Navigation', site: 'https://reactnavigation.org/', img: '', },
         { name: 'WaterMelonDB', site: 'https://watermelondb.dev/docs', img: '', },
-        { name: 'Laravel', site: 'https://react.dev/', img: '', },
+        { name: 'HealmDB', site: 'https://realm.io/', img: '', },
+        { name: 'Laravel', site: 'https://laravel.com/', img: '', },
         { name: 'Code Igniter', site: 'https://codeigniter.com//', img: '', },
         { name: 'JQuery', site: 'https://jquery.com//', img: '', },
         { name: 'Postgres', site: 'https://www.postgresql.org/', img: '', },
         { name: 'MySQL', site: 'https://www.mysql.com/', img: '', },
         { name: 'Node JS', site: 'https://www.nodejs.org/', img: '', },
+        { name: 'Apache', site: 'https://www.apache.org/', img: '', },
         { name: 'Prisma ORM', site: 'https://www.prisma.io/', img: '', },
         { name: 'Sequelize ORM', site: 'https://sequelize.org/', img: '', },
+        
     ]
 
     return (
@@ -76,9 +80,9 @@ export function Habilidades() {
                 </div>
 
                 <h2 className="flex mytitle text-primary text-xl ml-5">  <DiReact size={25} color={theme.colors.primary} className='mr-1' /> Tecnologias</h2>
-                <div className='items-center justify-between grid grid-cols-4 lg:grid-cols-12 ml-5'>
+                <div className='items-center justify-between grid grid-cols-3 mt-2 ml-5 lg:grid-cols-10 lg:mt-0'>
                     {techs.map((row) => (
-                        <div className=''>
+                        <div className='p-1'>
                             <a className='items-center flex flex-col' target='_blank' href={row.site}>
                                 <img src={`https://www.google.com/s2/favicons?domain=${row.site}`} alt={row.name} />
                                 <p className='text-sm'>{row.name}</p>

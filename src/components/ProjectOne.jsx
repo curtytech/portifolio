@@ -31,7 +31,7 @@ export function ProjectOne() {
                         ))}
                         <div className="border-t border-primary pt-3">
                             <dt className="font-medium text-gray-900">Use agora mesmo</dt>
-                            <dd className="mt-2 text-sm text-white bg-primary p-1 rounded-xl">PlayStore</dd>
+                           <a href="https://play.google.com/store/apps/details?id=com.phelipecurty.fazerhoje"> <dd className="mt-2 text-sm text-white bg-primary p-1 rounded-xl">PlayStore</dd> </a>
                            <Link to='/PoliticaProjectOne'> <dd className="mt-2 text-sm text-white bg-primary p-1 rounded-xl ">Termo de Serviço</dd> </Link>
                         </div>
                     </dl>

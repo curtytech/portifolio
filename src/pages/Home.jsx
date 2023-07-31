@@ -20,11 +20,11 @@ export function Home() {
 
             <SobreMim />
 
-            {/* <Habilidades /> */}
+            <Habilidades />
 
             <ProjectOne />
 
-            {/* <Formacao /> */}
+            <Formacao />
 
             <Experiencia />
 
