@@ -12,10 +12,12 @@ export function Habilidades() {
         { name: 'Tail Wind', site: 'https://tailwindcss.com/', img: '', },
         { name: 'Bootstrap', site: 'https://getbootstrap.com/', img: '', },
         { name: 'Figma', site: 'https://www.figma.com//', img: '', },
-        { name: 'Native Base', site: 'https://nativebase.io/', img: '', },
         { name: 'Styled Components', site: 'https://www.styled-components.com', img: '', },
         { name: 'React JS', site: 'https://www.react.dev/', img: '', },
         { name: 'React Native', site: 'https://reactnative.dev/', img: '', },
+        { name: 'Native Base', site: 'https://nativebase.io/', img: '', },
+        { name: 'Skia', site: 'https://skia.org/', img: '', },
+        { name: 'Axios', site: 'https://axios-http.com/ptbr/docs/intro', img: '', },
         { name: 'React Navigation', site: 'https://reactnavigation.org/', img: '', },
         { name: 'WaterMelonDB', site: 'https://watermelondb.dev/docs', img: '', },
         { name: 'HealmDB', site: 'https://realm.io/', img: '', },
@@ -38,7 +40,7 @@ export function Habilidades() {
                 <h2 className="flex mytitle text-primary ">  <TbCertificate size={25} color={theme.colors.primary} className='mt-1 mr-1' /> Habilidades</h2>
 
                 <h2 className="flex mytitle text-primary text-xl ml-5">  <DiTerminal size={25} color={theme.colors.primary} className='mr-1' /> Linguagens</h2>
-                <div className=' items-center justify-between grid grid-cols-6 ml-5'>
+                <div className=' items-center justify-between grid grid-cols-3 lg:grid-cols-6 ml-5'>
                     <div className='p-2'>
                         <a className='items-center flex flex-col' target='_blank' href="https://typescriptlang.org/">
                             <i className="programming lang-typescript"></i>
