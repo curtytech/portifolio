@@ -12,10 +12,11 @@ export function SobreMim() {
     return (
         <div id="sobremim" className="mt-4 max-w-7xl mx-auto sm:px-6 lg:px-8 shadow-lg rounded-xl bg-white flex flex-row">
 
-            <div className='basis-4/4 md:basis-1/4 rounded-xl p-5 '>
+            <div className='basis-4/4 md:basis-1/4 rounded-xl p-3 '>
                 <img src={foto} alt="Logo" className='rounded-full p-2 ' />
-                <h3 className='mt-1 font-bold text-xl'>Phelipe Curty</h3>
+                <h3 className='mt-1 font-bold text-xl text-primary'>Phelipe Curty</h3>
                 <p className='mt-1 text-gray-400'>Desenvolvedor FullStack & Mobile</p>
+                <p className='mt-1 text-gray-400'>phelipecurty@gmail.com</p>
 
                 <div className='flex items-center justify-between mx-7 mt-3'>
                     <a target='_blank' href="https://github.com/curtytech"> <AiFillGithub size={25} color='black' /> </a>
