@@ -13,6 +13,7 @@ export function Habilidades() {
         { name: 'Bootstrap', site: 'https://getbootstrap.com/', img: '', },
         { name: 'Figma', site: 'https://www.figma.com//', img: '', },
         { name: 'Styled Components', site: 'https://www.styled-components.com', img: '', },
+        { name: 'Next JS', site: 'https://nextjs.org/', img: '', },
         { name: 'React JS', site: 'https://www.react.dev/', img: '', },
         { name: 'React Native', site: 'https://reactnative.dev/', img: '', },
         { name: 'Native Base', site: 'https://nativebase.io/', img: '', },

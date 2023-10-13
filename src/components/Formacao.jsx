@@ -23,7 +23,7 @@ export function Formacao() {
                 <h2 className="flex mytitle text-primary ml-3 pl-5 pt-5">  <PiStudentFill size={25} color={theme.colors.primary} className='mt-1 mr-1' />Formação</h2>
                 <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-5 md:gap-y-16 px-4 py-6 md:max-w-7xl md:grid-cols-2 lg:px-8 ">
 
-                    <div className='shadow-md bg-blue-100 border-blue-300 border-2 rounded-xl p-2 pl-5 text-left  '>
+                    <div className=' border-l-primary border-l-8 rounded-3xl p-2 pl-5 text-left  '>
                         <div className="grid md:grid-cols-12">
                             <div className="md:col-span-1">
                                 <h2 className="text-2xl font-bold tracking-tight text-primary sm:text-2xl"><PiStudentFill size={25} color={theme.colors.primary} className='mt-1 mr-1' /></h2>
@@ -36,7 +36,7 @@ export function Formacao() {
                             </div>
                         </div>
                     </div>
-                    <div className='shadow-md bg-blue-100 border-blue-300 border-2 rounded-xl p-2 pl-5 text-left '>
+                    <div className=' border-l-primary border-l-8 rounded-3xl p-2 pl-5 text-left  '>
                         <div className="grid md:grid-cols-12">
                             <div className="md:col-span-1">
                                 <h2 className="text-2xl font-bold tracking-tight text-primary sm:text-2xl"><PiStudentFill size={25} color={theme.colors.primary} className='mt-1 mr-1' /></h2>
@@ -55,7 +55,7 @@ export function Formacao() {
                 <h2 className="flex mytitle text-primary ml-3 px-5">  <PiCertificateBold size={25} color={theme.colors.primary} className='mt-1 mr-1' /> Cursos & Qualificações</h2>
                 <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-6 gap-y-6 px-4 py-6 sm:px-12 lg:max-w-7xl lg:grid-cols-3 ">
                     {cursos.map((curso) => (
-                        <div className='shadow-md bg-blue-100 border-blue-300 border-2 rounded-xl p-2 pl-5 text-left'>
+                        <div className='border-l-primary border-l-4 rounded-xl p-2 pl-5 text-left'>
                             <div className="grid md:grid-cols-12">
                                 <div className="md:col-span-1">
                                     <h2 className="text-2xl font-bold tracking-tight text-primary sm:text-2xl"><PiCertificateBold size={25} color={theme.colors.primary} className='mt-1 mr-1' /></h2>
