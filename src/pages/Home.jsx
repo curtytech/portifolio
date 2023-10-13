@@ -25,7 +25,7 @@ export function Home() {
 
             <ProjectOne />
 
-            <ProjectTwo />
+            {/* <ProjectTwo /> */}
 
             <Formacao />
 
