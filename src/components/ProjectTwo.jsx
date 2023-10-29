@@ -1,10 +1,11 @@
-import print1 from '../assets/project1print1.png'
-import { BsCodeSlash } from "react-icons/bs";
-import theme from '../theme';
-import { Link } from 'react-router-dom';
+import metadodia1 from '../assets/metadodia1.webp'
+import metadodia2 from '../assets/metadodia2.webp'
+
+import metadodia3 from '../assets/metadodia3.webp'
+import  DefaultCarousel from './Carousel';
 
 const features = [
-    { name: 'Tecnologias', description: 'React Native, ' },
+    { name: 'Tecnologias', description: 'React Native' },
     { name: 'Banco de Dados', description: 'Async Storage' },
     { name: 'Design', description: 'Tail Wind CSS, React Native' },
 ]
@@ -12,8 +13,27 @@ const features = [
 export function ProjectTwo() {
     return (
         <div id="projetos" className="bg-white shadow-lg rounded-xl ">
-            
+             
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-6 sm:px-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8 ">
+            <div className="lg:w-2/4  shadow-lg flex flex-row">
+
+                    <img
+                        src={metadodia1}
+                        alt="print1"
+                        className="rounded-lg object-contain mx-1 "
+                    />
+                     <img
+                        src={metadodia2}
+                        alt="print1"
+                        className="rounded-lg object-contain mx-1 "
+                    /> 
+                          <img
+                        src={metadodia3}
+                        alt="print1"
+                        className="rounded-lg object-contain mx-1 "
+                    /> 
+                     
+                                  </div>
                 <div className=''>
                     <h2 className="text-2xl font-bold tracking-tight text-primary sm:text-3xl">Meta do Dia</h2>
                     <p className="mt-4 text-gray-500">
@@ -34,8 +54,7 @@ export function ProjectTwo() {
                             <a target='blank' href='https://curtytech.github.io/politicasDePrivacidade/'> <dd className="mt-2 text-sm text-white bg-primary p-1 rounded-xl ">Termo de Serviço</dd> </a>
                         </div>
                     </dl>
-                </div>
-              
+                </div>              
             </div>
         </div>
     )
