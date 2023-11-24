@@ -9,7 +9,7 @@ const features = [
 
 export function ProjectThree() {
     return (
-        <div id="projetos" className="bg-white shadow-lg rounded-xl pb-2">
+        <div id="projetos" className="bg-white shadow-lg rounded-xl pb-2 ">
                 <a target='blank' href="http://cliquei.tech"> 
 
                     <h2 className="text-2xl font-bold tracking-tight text-primary sm:text-3xl">Cliquei.tech</h2>
@@ -33,7 +33,7 @@ export function ProjectThree() {
 
              <img       src={cliqueiprint}
                         alt="print1"
-                        className="rounded-lg border-4 object-contain md:m-5 "
+                        className="rounded-lg border-4 object-contain md:my-3 md:mx-auto"
                     />
                     </a>
           
