@@ -28,10 +28,15 @@ export function Habilidades() {
         { name: 'Postgres', site: 'https://www.postgresql.org/', img: '', },
         { name: 'MySQL', site: 'https://www.mysql.com/', img: '', },
         { name: 'Node JS', site: 'https://www.nodejs.org/', img: '', },
+        { name: 'Express', site: 'https://expressjs.com/', img: '', },
+        { name: 'Fastfy', site: 'https://fastify.dev/', img: '', },
         { name: 'Apache', site: 'https://www.apache.org/', img: '', },
         { name: 'Prisma ORM', site: 'https://www.prisma.io/', img: '', },
         { name: 'Sequelize ORM', site: 'https://sequelize.org/', img: '', },
-        
+        { name: 'Jest JS', site: 'https://jestjs.io/', img: '', },
+        { name: 'Vitest', site: 'https://vitest.dev/', img: '', },
+        { name: 'Redux', site: 'https://redux.js.org/', img: '', },
+        { name: 'Zustand', site: 'https://zustand-demo.pmnd.rs/', img: '', },        
     ]
 
     return (
