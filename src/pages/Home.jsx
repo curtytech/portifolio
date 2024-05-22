@@ -19,6 +19,8 @@ export function Home() {
         <div className={`bg-lightbg`}>
 
             <Mynavbar />
+            
+            {/* <a target="_blank" href="https://www.youtube.com/"><img width="50" height="50" src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.google.com/&size=50" alt="Youtube" /></a> */}
 
             <SobreMim />
 
@@ -38,4 +40,3 @@ export function Home() {
     )
 
 }
-
