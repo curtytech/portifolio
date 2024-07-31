@@ -165,7 +165,7 @@ export function Experiencia() {
               <p>
                 <span className="font-bold">Competências: </span>
                 Desenvolvimento e Implatação de Sistemas Gerenciamento e
-                Manutenção de Servidores - SQL Web - Gestão de sistemas -
+                Manutenção de Servidores - Criação de Sites e Sistemas - Banco de dados MySQL - Gestão de sistemas -
                 Administração de Sistemas Linux & Terminal Manutenção de
                 Computadores, Notebooks e Rede - Design de Imagens e Vídeos
               </p>
@@ -234,7 +234,7 @@ export function Experiencia() {
               </p>
               <p>
                 <span className="font-bold">Competências: </span>
-                Cobrança de Faturas; TeleMarketing; SAC; Gerenciamento de
+                Cobrança de Faturas; TeleMarketing; SAC; Gerenciamento e uso de
                 Sistemas;{" "}
               </p>
             </div>
