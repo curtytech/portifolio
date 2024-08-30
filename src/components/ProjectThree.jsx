@@ -1,5 +1,4 @@
 import cliqueiprint from "../assets/cliqueiprint.png";
-// import  DefaultCarousel from './Carousel';
 
 const features = [
   { name: "Tecnologias", description: "Code Igniter 4" },
@@ -38,7 +37,7 @@ export function ProjectThree() {
         <img
           src={cliqueiprint}
           alt="print1"
-          className="rounded-lg border border-transparent object-contain md:my-3 md:mx-auto"
+          className="rounded-[2rem] border border-transparent object-contain md:my-3 md:mx-auto"
         />
       </a>
     </div>

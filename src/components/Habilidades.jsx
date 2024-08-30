@@ -48,7 +48,7 @@ export function Habilidades() {
                 <h2 className="flex mytitle text-primary ">  <TbCertificate size={25} color={theme.colors.primary} className='mt-1 mr-1' /> Habilidades</h2>
 
                 <h2 className="flex mytitle text-primary text-xl ml-5">  <DiTerminal size={25} color={theme.colors.primary} className='mr-1' /> Linguagens</h2>
-                <div className=' items-center justify-between grid grid-cols-3 lg:grid-cols-6 ml-5'>
+                <div className=' items-center justify-between grid grid-cols-3 lg:grid-cols-7 ml-5'>
                     <div className='p-2'>
                         <a className='items-center flex flex-col' target='_blank' href="https://typescriptlang.org/">
                             <i className="programming lang-typescript"></i>
@@ -77,6 +77,12 @@ export function Habilidades() {
                         <a className='items-center flex flex-col' target='_blank' href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">
                             <i className="programming lang-css"></i>
                             <p className='text-sm'>CSS</p>
+                        </a>
+                    </div>
+                    <div className='p-2'>
+                        <a className='items-center flex flex-col' target='_blank' href="https://go.dev/">
+                            <i className="programming lang-go"></i>
+                            <p className='text-sm'>GO</p>
                         </a>
                     </div>
                     <div className='p-2'>
