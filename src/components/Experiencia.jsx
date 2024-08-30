@@ -36,7 +36,36 @@ export function Experiencia() {
         </h2>
 
         <div className="grid grid-cols-12 mb-7 md:mb-0">
-          <div className="hidden md:col-span-5 md:block"></div>
+          <div className="hidden md:col-span-5 md:block">
+            <div className="md:col-span-5 col-span-12 p-2 mx-5 shadow-lg shadow-primary rounded-xl border-l-primary border-l-4 border-t-primary border-t-4">
+              <div className="text-right pl-2 text-sm">
+                <h3 className="font-bold">Desenvolverdor FullStack na Tridar</h3>
+                <p>
+                  <span className="font-bold">Início: </span> 01/10/2023{" "}
+                  <span className="font-bold">Término: </span>Atualmente{" "}
+                </p>
+                <p>
+                  <p>
+                    {" "}
+                    <span className="font-bold">Competências: </span>{" "}
+                    Desenvolvimento de Sistemas Web - Dashboards - Relatórios Financeiras - Autenticação em dois fatores
+                    Consumo e desenvolvimento de APIs - Upload e Plataformas de Cursos e Lives 
+                  </p>
+                  <p>
+                    {" "}
+                    <span className="font-bold">Tecnologias: </span> GO, JavaScript,
+                    Typescript, Html, Css, NodeJS, NextJs, ReactJs, Laravel
+                    Firebase - Firestore e MySQL
+                  </p>
+                  <p>
+                    {" "}
+                    <span className="font-bold">Atuação em time: </span>
+                    Metodologia Ágil e SCRUM
+                  </p>
+                </p>
+              </div>
+            </div>
+          </div>
           <div className="hidden md:col-span-2 md:block">
             <div className="grid lg:grid-cols-9">
               <div className="md:col-span-3 "></div>
@@ -63,13 +92,26 @@ export function Experiencia() {
               <h3 className="font-bold">Analista de Sistemas na A4PM</h3>
               <p>
                 <span className="font-bold">Início: </span> 18/12/2023{" "}
-                <span className="font-bold">Término: </span>Atualmente{" "}
+                <span className="font-bold">Término: </span>20/06/2024{" "}
               </p>
               <p>
-                <p> <span className="font-bold">Competências: </span> Desenvolvimento de Sistemas Web e Mobile - Vídeo Chamadas - Notificações por Email SMS e Push - Criação de dados em lote  </p>              
-                <p> <span className="font-bold">Tecnologias: </span> JavaScript, Typescript, Html, Css, NodeJS, Vue.js, React Native, Firebase - Firestore e MySQL </p> 
-                <p> <span className="font-bold">Atuação em time: </span>
-                  Metodologia Ágil e SCRUM </p>
+                <p>
+                  {" "}
+                  <span className="font-bold">Competências: </span>{" "}
+                  Desenvolvimento de Sistemas Web e Mobile - Vídeo Chamadas -
+                  Notificações por Email SMS e Push - Criação de dados em lote{" "}
+                </p>
+                <p>
+                  {" "}
+                  <span className="font-bold">Tecnologias: </span> JavaScript,
+                  Typescript, Html, Css, NodeJS, Vue.js, React Native, Firebase
+                  - Firestore e MySQL{" "}
+                </p>
+                <p>
+                  {" "}
+                  <span className="font-bold">Atuação em time: </span>
+                  Metodologia Ágil e SCRUM{" "}
+                </p>
               </p>
             </div>
           </div>
@@ -88,7 +130,12 @@ export function Experiencia() {
                 <span className="font-bold">Competências: </span>
                 Desenvolvimento de Sistemas Web e Mobile - Suporte e Gestão dos
                 sistemas – Instalação e Backup de Servidores Linux - Apache
-                <p> <span className="font-bold">Tecnologias: </span> JavaScript, Typescript, Html, Css, NodeJS, React Native, Prisma e PostgreSQL </p> 
+                <p>
+                  {" "}
+                  <span className="font-bold">Tecnologias: </span> JavaScript,
+                  Typescript, Html, Css, NodeJS, React Native, Prisma e
+                  PostgreSQL{" "}
+                </p>
               </p>
             </div>
           </div>
@@ -165,9 +212,10 @@ export function Experiencia() {
               <p>
                 <span className="font-bold">Competências: </span>
                 Desenvolvimento e Implatação de Sistemas Gerenciamento e
-                Manutenção de Servidores - Criação de Sites e Sistemas - Banco de dados MySQL - Gestão de sistemas -
-                Administração de Sistemas Linux & Terminal Manutenção de
-                Computadores, Notebooks e Rede - Design de Imagens e Vídeos
+                Manutenção de Servidores - Criação de Sites e Sistemas - Banco
+                de dados MySQL - Gestão de sistemas - Administração de Sistemas
+                Linux & Terminal Manutenção de Computadores, Notebooks e Rede -
+                Design de Imagens e Vídeos
               </p>
             </div>
           </div>
