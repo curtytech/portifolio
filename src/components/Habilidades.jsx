@@ -39,6 +39,7 @@ export function Habilidades() {
         { name: 'Vitest', site: 'https://vitest.dev/', img: '', },
         { name: 'Redux', site: 'https://redux.js.org/', img: '', },
         { name: 'Zustand', site: 'https://zustand-demo.pmnd.rs/', img: '', },        
+        { name: 'Swagger', site: 'https://swagger.io/', img: '', },        
     ]
 
     return (

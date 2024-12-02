@@ -11,7 +11,9 @@ vercel
 // Atualizar Projeto na Vercel
 vercel --prod
 
+// nome do projeto e phelipecurty
 
 
 //senha key store
 curtytech
+

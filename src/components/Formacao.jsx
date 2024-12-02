@@ -8,8 +8,8 @@ import rocketseat from '../assets/rocketseat.svg';
 import theme from '../theme';
 
 const cursos = [
-    { instituicao: 'RocketSeat', curso: 'Ignite - React, React Native, NodeJS', conclusao: 'Completo', logo: { rocketseat } },
-    { instituicao: 'RocketSeat', curso: 'Discover - HTML, CSS, Javascript', conclusao: 'Completo', logo: { rocketseat } },
+    { instituicao: 'RocketSeat', curso: 'Ignite - React, React Native, NodeJS', conclusao: '2024', logo: { rocketseat } },
+    { instituicao: 'RocketSeat', curso: 'Discover - HTML, CSS, Javascript', conclusao: '2023', logo: { rocketseat } },
     { instituicao: 'SENAI ', curso: 'LGPD Privacidade e Proteção de Dados', conclusao: '08/2021', logo: {} },
     { instituicao: 'CEDERJ ', curso: 'Curso em Formação EAD', conclusao: '07/2018', logo: {} },
     { instituicao: 'Microlins', curso: 'Montagem e Manutenção de Computadores e Rede', conclusao: '01/2012', logo: {} },
@@ -57,9 +57,21 @@ export function Formacao() {
                             <div className="md:col-span-11">
                                 <h2 className="text-xl font-bold tracking-tight text-primary">Anhanguera</h2>
                                 <h3 className="text-md font-bold tracking-tight text-primary">Pós Graduação em Desenvolvimento Web FullStack</h3>
-                                <p className='text-sm tracking-tight text-gray-500'>Cursando</p>
+                                <p className='text-sm tracking-tight text-gray-500'>Conclusão: 11/2024</p>
                             </div>
 
+                        </div>
+                    </div>
+                    <div className='border-l-primary border-l-8 rounded-3xl p-2 pl-5 text-left  '>
+                        <div className="grid md:grid-cols-12">
+                            <div className="md:col-span-1">
+                                <h2 className="text-2xl font-bold tracking-tight text-primary sm:text-2xl"><PiStudentFill size={25} color={theme.colors.primary} className='mt-1 mr-1' /></h2>
+                            </div>
+                            <div className="md:col-span-11">
+                                <h2 className="text-xl font-bold tracking-tight text-primary">Anhanguera</h2>
+                                <h3 className="text-md font-bold tracking-tight text-primary">Pós Graduação em Administração de Banco de Dados</h3>
+                                <p className='text-sm tracking-tight text-gray-500'>Cursando</p>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -38,7 +38,7 @@ export function Experiencia() {
         <div className="grid grid-cols-12 mb-7 md:mb-0">
           <div className="hidden md:col-span-5 md:block">
             <div className="md:col-span-5 col-span-12 p-2 mx-5 shadow-lg shadow-primary rounded-xl border-l-primary border-l-4 border-t-primary border-t-4">
-              <div className="text-right pl-2 text-sm">
+              <div className="text-left pl-2 text-sm">
                 <h3 className="font-bold">Desenvolvedor FullStack na Tridar</h3>
                 <p>
                   <span className="font-bold">Início: </span> 01/10/2023{" "}
