@@ -70,7 +70,7 @@ export function Formacao() {
                             <div className="md:col-span-11">
                                 <h2 className="text-xl font-bold tracking-tight text-primary">Anhanguera</h2>
                                 <h3 className="text-md font-bold tracking-tight text-primary">Pós Graduação em Administração de Banco de Dados</h3>
-                                <p className='text-sm tracking-tight text-gray-500'>Cursando</p>
+                                <p className='text-sm tracking-tight text-gray-500'>Conclusão: 03/2025</p>
                             </div>
                         </div>
                     </div>
