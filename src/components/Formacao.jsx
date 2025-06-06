@@ -1,9 +1,7 @@
-
 import { PiCertificateBold } from "react-icons/pi";
 import { PiStudentFill } from "react-icons/pi";
 
 import rocketseat from '../assets/rocketseat.svg';
-// import estacio from '../assets/estacio.svg';
 
 import theme from '../theme';
 
