@@ -710,6 +710,10 @@ section,
   background-color: var(--accent-color);
 }
 
+.hover-my-primary-color:hover{
+  background-color: var(--accent-color);
+}
+
 .stats .stats-item {
   padding: 30px;
   width: 100%;
