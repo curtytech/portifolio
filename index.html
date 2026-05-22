@@ -24,6 +24,162 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
+  <style>
+    .header {
+      backdrop-filter: blur(18px);
+      background:
+        linear-gradient(180deg, rgba(4, 11, 20, 0.96) 0%, rgba(7, 17, 31, 0.96) 100%);
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.18);
+    }
+
+    .profile-meta {
+      text-align: center;
+      padding: 0 14px 18px;
+    }
+
+    .profile-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 14px;
+      border-radius: 999px;
+      background: rgba(35, 81, 205, 0.15);
+      border: 1px solid rgba(107, 151, 255, 0.22);
+      color: #d7e4ff;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .profile-role,
+    .profile-email {
+      display: block;
+      margin: 12px 0 0;
+      color: rgba(255, 255, 255, 0.88);
+    }
+
+    .profile-role {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .profile-email {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.72);
+    }
+
+    .profile-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 18px;
+      padding: 11px 18px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, rgba(35, 81, 205, 1), rgba(72, 117, 240, 0.92));
+      color: #fff;
+      font-weight: 600;
+      box-shadow: 0 16px 30px rgba(35, 81, 205, 0.28);
+    }
+
+    .profile-cta:hover {
+      color: #fff;
+      transform: translateY(-1px);
+    }
+
+    .section-lead {
+      max-width: 760px;
+      font-size: 1.04rem;
+      line-height: 1.75;
+      color: color-mix(in srgb, var(--default-color), transparent 20%);
+    }
+
+    .modern-service {
+      height: 100%;
+      padding: 28px;
+      border-radius: 24px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(247, 249, 255, 0.94));
+      border: 1px solid rgba(35, 81, 205, 0.08);
+      box-shadow: 0 20px 40px rgba(5, 13, 24, 0.05);
+    }
+
+    .modern-service .icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 18px;
+      margin-right: 18px;
+      box-shadow: 0 16px 24px rgba(35, 81, 205, 0.18);
+    }
+
+    .contact-card {
+      padding: 34px;
+      border-radius: 28px;
+      background:
+        linear-gradient(135deg, rgba(8, 17, 31, 0.98), rgba(19, 38, 67, 0.94));
+      color: #fff;
+      box-shadow: 0 24px 50px rgba(5, 13, 24, 0.16);
+    }
+
+    .contact-card .info-item {
+      padding: 18px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .contact-card .info-item:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .contact-card .info-item i,
+    .contact-card .info-item h3,
+    .contact-card .info-item p,
+    .contact-card .info-item a {
+      color: #fff;
+    }
+
+    .contact-copy {
+      height: 100%;
+      padding: 34px;
+      border-radius: 28px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(245, 248, 255, 0.95));
+      border: 1px solid rgba(35, 81, 205, 0.08);
+      box-shadow: 0 20px 40px rgba(5, 13, 24, 0.06);
+    }
+
+    .contact-copy h3 {
+      font-size: 1.8rem;
+      margin-bottom: 16px;
+    }
+
+    .contact-copy p {
+      margin-bottom: 0;
+      line-height: 1.8;
+      color: color-mix(in srgb, var(--default-color), transparent 18%);
+    }
+
+    .contact-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    .contact-actions .btn {
+      padding: 13px 20px;
+      border-radius: 16px;
+      font-weight: 600;
+    }
+
+    @media (max-width: 767px) {
+      .contact-card,
+      .contact-copy,
+      .modern-service {
+        padding: 24px;
+      }
+    }
+  </style>
+
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
@@ -39,12 +195,14 @@
     <a class="logo d-flex align-items-center justify-content-center m-0">
       <h1 class="sitename">Phelipe Curty</h1>
     </a>
-    <p class="logo d-flex align-items-center justify-content-center m-0" style="margin: 2px 2px;">
-      Desenvolvedor FullStack & Mobile
-    <p>
-    <p class="logo d-flex align-items-center justify-content-center m-0" style="margin: 2px 0;">
-      phelipecurty@gmail.com
-    <p>
+    <div class="profile-meta">
+      <span class="profile-role">Desenvolvedor FullStack & Mobile</span>
+      <span class="profile-email">phelipecurty@gmail.com</span>
+      <!-- <a target="_blank" href="assets/pdf/curriculo.pdf" class="profile-cta" title="Acesse meu curriculo em PDF">
+        <i class="bi bi-file-earmark-arrow-down"></i>
+        Baixar curriculo
+      </a> -->
+    </div>
 
 
     <div class="social-links text-center">
@@ -92,7 +250,6 @@
         </p>
       </div>
 
-
     </section>
 
 
@@ -120,7 +277,6 @@
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4 text-center">
             <!-- <img src="assets/img/ionpier.jpg" class="img-fluid rounded-circle" width="250">       -->
@@ -1464,13 +1620,14 @@
 
       <div class="container section-title" data-aos="fade-up">
         <h2>Serviços</h2>
+        <p class="section-lead">Desenvolvimento, suporte e estrutura técnica para transformar ideias em soluções úteis, estáveis e com apresentação profissional.</p>
       </div>
 
       <div class="container">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 service-item modern-service d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="icon flex-shrink-0"><i class="bi bi-window-split"></i></div>
             <div>
               <h4 class="title"><span class="stretched-link">Desenvolvimento Web e Mobile</span>
@@ -1481,7 +1638,7 @@
           </div>
 
 
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 service-item modern-service d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
             <div>
               <h4 class="title"><a href="#" class="stretched-link">Suporte Remoto</a></h4>
@@ -1491,7 +1648,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 service-item modern-service d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="icon flex-shrink-0"><i class="bi bi-database-fill-add"></i></div>
             <div>
               <h4 class="title"><a href="#" class="stretched-link">Administração de Banco de Dados</a></h4>
@@ -1501,7 +1658,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-4 col-md-6 service-item modern-service d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="icon flex-shrink-0"><i class="bi bi-window-dock"></i></div>
             <div>
               <h4 class="title"><a href="#" class="stretched-link">Auditoria em Sistemas</a></h4>
@@ -1511,7 +1668,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-4 col-md-6 service-item modern-service d-flex" data-aos="fade-up" data-aos-delay="500">
             <div class="icon flex-shrink-0"><i class="bi bi-clipboard2-data"></i></div>
             <div>
               <h4 class="title"><a href="#" class="stretched-link">Analise de Requisitos</a></h4>
@@ -1531,7 +1688,7 @@
     <section id="contact" class="contact section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Contato</h2>
-        <p>Entre em contato agora mesmo!</p>
+        <p class="section-lead">Se voce precisa de um site, sistema, aplicativo ou apoio tecnico especializado, vamos conversar sobre o que faz sentido para o seu momento.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -1540,13 +1697,29 @@
 
           <div class="col-lg-5">
 
-            <div class="info-wrap">
+            <div class="info-wrap contact-card">
 
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email</h3>
-                  <p>phelipecurty@gmail.com</p>
+                  <p><a href="mailto:phelipecurty@gmail.com">phelipecurty@gmail.com</a></p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-globe flex-shrink-0"></i>
+                <div>
+                  <h3>Website</h3>
+                  <p><a target="_blank" href="https://phelipecurty.vercel.app/">phelipecurty.vercel.app</a></p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="600">
+                <i class="bi bi-linkedin flex-shrink-0"></i>
+                <div>
+                  <h3>LinkedIn</h3>
+                  <p><a target="_blank" href="https://www.linkedin.com/in/phelipecurty/">linkedin.com/in/phelipecurty</a></p>
                 </div>
               </div>
 
@@ -1554,7 +1727,19 @@
           </div>
 
           <div class="col-lg-7">
-
+            <div class="contact-copy h-100">
+              <h3>Vamos construir algo marcante para o seu projeto</h3>
+              <p>
+                Posso ajudar em landing pages, sites institucionais, plataformas web, aplicativos mobile e melhorias em
+                sistemas existentes. Se a ideia e evoluir seu produto com um visual mais forte e uma base tecnica bem
+                estruturada, este e um bom ponto de partida.
+              </p>
+              <div class="contact-actions">
+                <a href="mailto:phelipecurty@gmail.com" class="btn btn-sm my-primary-bg text-white hover-my-primary-color">Enviar email</a>
+                <a target="_blank" href="https://www.linkedin.com/in/phelipecurty/" class="btn btn-sm my-primary-bg text-white hover-my-primary-color">Chamar no LinkedIn</a>
+                <a target="_blank" href="assets/pdf/curriculo.pdf" class="btn btn-sm my-primary-bg text-white hover-my-primary-color">Ver curriculo</a>
+              </div>
+            </div>
           </div><!-- End Contact Form -->
 
         </div>
@@ -1701,3 +1886,4 @@
 </body>
 
 </html>
+
